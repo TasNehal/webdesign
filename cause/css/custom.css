@@ -1,0 +1,45 @@
+.nav-link:hover{
+    color: crimson;
+}
+
+.nav-item:hover{
+    color: crimson;
+}
+
+.pictures{
+    justify-content: center;
+    text-align: center;
+}
+
+.innerImg{
+    width: auto;
+    height: 700px;
+    max-height: 700px;
+}
+
+.navtext{
+    color: white;
+}
+
+.primaryCon{
+    text-align: center;
+    justify-content: center;
+}
+
+.primaryColor{
+    background-color: lightcoral;
+}
+
+.secondaryCon{
+    text-align: center;
+    justify-content: center;
+}
+
+.aboutSpacing{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.donationSpacing{
+    align-items: center;
+}

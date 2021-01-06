@@ -1,0 +1,135 @@
+html {
+    background: url(../images/background2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+header{
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 6px;
+    display: flex;
+}  
+
+#title{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+h1{
+    font-size: 36px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: rgb(191, 136, 243);
+}
+
+h2{
+    font-size: 32px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
+    color: rgb(191, 136, 243);
+}
+
+a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+a:hover{
+    color: tomato;
+}
+
+
+nav{
+    flex-grow: 3;
+}
+
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+nav ul li{
+    flex-grow: 1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-left: solid 1px antiquewhite;
+    border-right: solid 1px antiquewhite;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+nav ul li a:hover{
+    color: tomato;
+}
+
+nav ul a:visited{
+    text-decoration: none;
+}
+
+nav ul a:link{
+    text-decoration: none;
+}
+
+nav ul a:active{
+    text-decoration: none;
+}
+
+#primary{
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 18px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+#secondary{
+    display: flex;
+}
+
+#gallery{
+    margin-top: 10px;
+    padding-bottom: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.thumbnail{
+    flex-grow: 1;
+    margin: 10px;
+}
+
+
+footer{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+footer a{
+    margin: 7px;
+    text-decoration: none;
+}

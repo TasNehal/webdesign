@@ -1,0 +1,110 @@
+html {
+    background: url(../images/back2) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+@font-face{
+    font-family: square-font;
+    src: url(../fonts/Square.ttf);
+}
+
+@font-face{
+    font-family: saira;
+    src: url(../fonts/Saira-Medium.ttf);
+}
+
+#header h1{
+    font-family: square-font;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+footer a{
+    margin: 7px;
+    text-decoration: none;
+}
+
+#center ul{
+    margin-top: 20px;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#center ul li{
+    padding: 7px;
+}
+
+#center section{
+    padding: 50px;
+}
+
+p{
+    font-family: saira;
+    text-align: center;
+    font-size: 20pt;
+}
+
+nav{
+    overflow: hidden;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0px;
+    margin: 10px;
+
+    display: flex;
+
+    flex-direction: row;
+    border: solid 3px black;
+}
+
+nav ul a{
+    flex-grow: 1;
+    font-size: 15pt;
+    background-color: lightskyblue;
+}
+
+nav ul a:link{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav ul a:active{
+    background-color: lightgreen;
+}
+
+nav ul a:hover{
+    color: pink;
+    background-color: darkgreen;
+}
+
+nav ul a:focus{
+    background-color: lightgreen;
+}
+
+nav ul a:visited{
+    text-decoration: none;
+}
+
+nav ul li{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: solid 1px black;
+}
+
+
+
